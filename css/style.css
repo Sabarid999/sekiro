@@ -1,0 +1,912 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.title p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.title h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    color: #0f2f44;
+}
+
+body {
+    background-color:#B45B5D;
+}
+
+
+
+/*===================================
+    header part css start
+=====================================*/
+#header-part{
+    background: #CEA844;
+    color: #fff;
+    padding: 20px 0;
+    font-family:'Carrois Gothic SC', sans-serif;
+    font-size: 14px;
+}
+
+
+#header-part .left-text{
+    width: 50%;
+    float: left;
+
+}
+
+
+#header-part .right-text{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+/*===================================
+    header part css end
+=====================================*/
+
+/*===================================
+    navbar part css start
+=====================================*/
+nav{
+    margin-top: 50px;
+}
+
+nav .logo{
+    width: 13%;
+    float:left;
+    margin-top: -50px;
+    cursor: pointer;
+
+}
+
+nav .nav-item{
+    width: 79%;
+    float:left;
+    margin-top: 10px;
+}
+
+nav .nav-item ul {
+    text-align: center;
+}
+
+nav .nav-item ul li{
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+nav .nav-item ul li a{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #E7DFD2;
+    transition: .4s;
+}
+
+nav .nav-item ul li a:hover{
+    color: #CEA844;
+}
+
+nav .icon{
+    width: 8%;
+    float:left;
+   text-align: right;
+}
+
+nav .icon i{
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #E7DFD2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #E7DFD2;
+    transition: .4s;
+    cursor: pointer;
+}
+
+nav .icon i:hover{
+    background: #CEA844;
+    color: #B45B5D;
+    border-color: #B45B5D;
+}
+
+/*===================================
+    navbar part css end
+=====================================*/
+
+/*===================================
+    search part css start
+=====================================*/
+#search-part{
+  width:100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  top:0;
+  left:0;
+  display: none;
+}
+
+#search-part i{
+  color: #CEA844;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+/*===================================
+    search part css end
+=====================================*/
+
+
+/*===================================
+    banner part css start
+=====================================*/
+#banner-part{
+    background: url(../images/sekiro-banner2.png) no-repeat center;
+    background-size: cover;
+    margin-top: 1px;
+    padding: 100px 0;
+}
+
+#banner-part h3{
+    font-family: 'Quattrocento', serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #CEA844;
+}
+
+#banner-part h3{
+    font-family: 'Quattrocento', serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #CEA844;
+    margin-top:
+}
+
+#banner-part h1{
+    font-family: 'Quattrocento', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #CEA844;
+    letter-spacing: 12px;
+    margin-top:
+}
+
+#banner-part p{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 476px;
+    margin-top: 5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #E7DFD2
+}
+
+#banner-part .btn{
+    display: inline-block;
+    padding: 15px 20px;
+    background: #B45B5D;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #B45B5D;
+    transition: .4s;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+#banner-part .btn:hover{
+    background: #CCA643;
+    color: #B45B5D;
+}
+
+#banner-part i{
+    width: 50px;
+    height: 50px;
+    background: #B45B5D;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 30px;
+    transition: .4s
+}
+
+#banner-part i:hover{
+    color: #B45B5D;
+    background: #CCA643;
+}
+
+/*===================================
+    banner part css end
+=====================================*/
+
+/*===================================
+    about part css start
+=====================================*/
+
+#about-part{
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+}
+
+#about-part .text{
+    width: 50%;
+    float: left;
+}
+
+#about-part .text .title p{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #E7DFD2;
+}
+
+#about-part .text .title h2{
+    font-family: 'Quattrocento', serif;
+    color: #E7DFD2;
+}
+
+#about-part .text .details p{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 16px;
+    color: #E7DFD2;
+    margin-top: 20px;
+}
+
+#about-part .text .details ul{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 16px;
+    color: #E7DFD2;
+    margin-left: 20px;
+}
+
+#about-part .text .details ul li{
+    margin-top: 20px;
+}
+
+#about-part .text .details a{
+    display: inline-block;
+    background: #B45B5D;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #E7DFD2;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    transition: .4s;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+#about-part .text .details a:hover{
+  color: #B45B5D;
+  background: #CEA844;
+}
+
+
+
+#about-part .img{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+/*===================================
+    about part css end
+=====================================*/
+
+/*===================================
+    service part css start
+=====================================*/
+#service-part{
+    margin-top: 100px;
+    background: #974547;
+    padding: 100px 0;
+}
+
+
+#service-part .title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#service-part .title p{
+  color: #E7DFD2;
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+#service-part .title h2{
+  color: #E7DFD2;
+  font-family: 'Quattrocento', serif;
+}
+
+#service-part .item{
+    width: 31%;
+    margin: 0 15px;
+    float: left;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+#service-part .item .main{
+    width: 100%;
+    height: 100%;
+}
+
+#service-part .item .main .img{
+    width: 30%;
+    background: #CEA844;
+    float: left;
+    text-align: center;
+    padding: 29px 0;
+}
+
+#service-part .item .main .text{
+    width: 70%;
+    background: #9F5254;
+    float: left;
+    padding: 15px 0;
+    padding-left: 28px;
+    box-sizing: border-box;
+}
+
+#service-part .item .main .text h4{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 20px;
+    color: #E7DFD2;
+}
+
+#service-part .item .main .text p{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 14px;
+    color: #E7DFD2;
+    padding-right: 10px;
+}
+
+#service-part .item .overlay{
+    width: 0%;
+    height: 100%;
+    background: #CEA844;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    opacity: 0;
+    text-align: center;
+}
+
+#service-part .item .overlay img{
+    margin-top: 10px;
+}
+
+#service-part .item .overlay h4{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 20px;
+    color: #E7DFD2;
+}
+
+#service-part .item:hover .overlay{
+    width: 100%;
+    opacity: 1;
+}
+/*===================================
+    service part css end
+=====================================*/
+
+/*===================================
+    portfolio part css start
+=====================================*/
+
+#portfolio-part{
+    margin-top: 100px;
+}
+
+#portfolio-part .title{
+    text-align: center;
+}
+
+#portfolio-part .title p{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  color: #E7DFD2;
+}
+
+#portfolio-part .title h2{
+  font-family: 'Quattrocento', serif;
+  color: #E7DFD2;
+}
+
+#portfolio-part .item{
+    width: 31%;
+    float: left;
+    margin: 0 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#portfolio-part .item img{
+    width: 100%;
+}
+
+#portfolio-part .item .overlay{
+    width: 100%;
+    color: #E7DFD2;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background: #CEA844;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0;
+    transition: .4s;
+    -webkit-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.21);
+-moz-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.21);
+box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.21);
+}
+
+#portfolio-part .item:hover .overlay{
+    opacity: 1;
+}
+
+#portfolio-part .btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#portfolio-part .btn a{
+    display: inline-block;
+    color: #E7DFD2;
+    background: #B45B5D;
+    padding: 15px 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    transition: .4s;
+
+}
+
+#portfolio-part .btn a:hover{
+    color: #B45B5D;
+    background-color: #CEA844;
+}
+
+#portfolio-part .btn a p{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 14px;
+}
+
+/*===================================
+    portfolio part css end
+=====================================*/
+
+/*===================================
+    Testomonial part css start
+=====================================*/
+
+#testimonial-part{
+    margin-top: 100px;
+    background: #974547;
+    padding: 100px 0;
+}
+
+
+#testimonial-part .title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#testimonial-part .title p{
+  color: #E7DFD2;
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+ #testimonial-part .title h2{
+  color: #E7DFD2;
+  font-family: 'Quattrocento', serif;
+}
+
+#testimonial-part .item{
+    width: 47%;
+    margin: 0 15px;
+    float: left;
+    margin-top: 30px;
+
+}
+
+#testimonial-part .item .img{
+    width: 35%;
+    float: left;
+    text-align: center;
+
+
+}
+#testimonial-part .item .text{
+    width: 65%;
+    background: #9F5254;
+    float: left;
+    padding: 15px 0;
+    padding-left: 28px;
+    box-sizing: border-box;
+
+}
+
+#testimonial-part .item .text h4{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 22px;
+    color: #E7DFD2;
+}
+
+#testimonial-part .item .text h6{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 20px;
+    color: #E7DFD2;
+}
+
+#testimonial-part .item .text p{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 14px;
+    color: #E7DFD2;
+}
+
+
+
+
+/*===================================
+    Testimonial part css end
+=====================================*/
+
+
+/*===================================
+    blog part css start
+=====================================*/
+#blog-part{
+    margin-top: 100px;
+}
+
+#blog-part .title{
+    text-align: center;
+}
+
+#blog-part .title p{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  color: #E7DFD2;
+}
+
+#blog-part .title h2{
+  font-family: 'Quattrocento', serif;
+  color: #E7DFD2;
+}
+
+
+#blog-part .item{
+    width: 31%;
+    float: left;
+    margin: 0 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: #974547;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+#blog-part .item img{
+    width: 100%;
+}
+
+#blog-part .item .details .date{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 14px;
+    color: #E7DFD2;
+    transition: .4s;
+    padding-top: 3px;
+}
+
+#blog-part .item .details h4{
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    color: #E7DFD2;
+    transition: .4s;
+    padding-top: 3px;
+}
+
+#blog-part .item .details a{
+    display: inline-block;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 14px;
+    color: #E7DFD2;
+    text-transform: capitalize;
+    transition: .4s;
+    padding-top: 3px;
+}
+
+#blog-part .item:hover{
+    background: #CEA844;
+
+}
+
+
+#blog-part .item:hover .date{
+        color: #B45B5D;
+}
+
+
+#blog-part .item:hover h4{
+        color: #B45B5D;
+}
+
+#blog-part .item:hover a{
+        color: #B45B5D;
+}
+
+#blog-part .btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#blog-part .btn a{
+    display: inline-block;
+    color: #E7DFD2;
+    background: #B45B5D;
+    padding: 15px 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    transition: .4s;
+}
+
+#blog-part .btn a:hover{
+    color: #B45B5D;
+    background-color: #CEA844;
+}
+
+#blog-part .btn a p{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 14px;
+}
+
+
+
+/*===================================
+    blog part css end
+=====================================*/
+
+
+/*===================================
+    footer part css start
+=====================================*/
+#footer-part{
+  margin-top: 100px;
+  background: #974547;
+  height: 350px;
+  padding-top: 40px;
+  -webkit-box-shadow: 0px 0px 38px 9px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 0px 38px 9px rgba(0,0,0,0.37);
+box-shadow: 0px 0px 38px 9px rgba(0,0,0,0.37);
+}
+
+#footer-part .logo{
+  width: 25%;
+  height: 350px;
+  float: left;
+}
+
+#footer-part .logo img{
+  padding: 0 10px;
+
+}
+
+#footer-part .logo p{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 16px;
+  padding: 0 10px;
+  padding-bottom: 40px;
+  color: #E7DFD2;
+}
+
+#footer-part .logo i{
+
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #E7DFD2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 17px;
+    color: #E7DFD2;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+#footer-part .logo i:hover{
+    background: #CEA844;
+    color: #B45B5D;
+    border-color: #B45B5D;
+}
+
+
+
+
+
+
+#footer-part .contact{
+  width: 25%;
+  /* background: green; */
+  height: 350px;
+  float: left;
+}
+
+#footer-part .contact h4{
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  color: #E7DFD2;
+  padding:10px 10px;
+  padding-bottom: 60px;
+}
+
+#footer-part .contact .icon1{
+  width: 15%;
+  display: inline-block;
+  float: left;
+  padding-bottom: 30px;
+
+}
+
+#footer-part .contact .text1{
+  width: 81%;
+  display: inline-block;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 16px;
+  color: #868686;
+  padding-bottom: 30px;
+  font-weight: 100;
+  padding-left: 5px;
+}
+
+#footer-part .contact .icon2{
+  width: 15%;
+  display: inline-block;
+  float: left;
+  padding-bottom: 30px;
+}
+
+#footer-part .contact .text2{
+  width: 81%;
+  display: inline-block;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 16px;
+  color: #868686;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  /* line-height: 25px; */
+}
+
+#footer-part .contact .icon3{
+  width: 15%;
+  display: inline-block;
+  float: left;
+  padding-bottom: 30px;
+}
+
+#footer-part .contact .text3{
+  width: 81%;
+  display: inline-block;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 16px;
+  color: #868686;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  /* line-height: 25px; */
+}
+
+#footer-part .contact i{
+
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #868686;
+    transition: .4s;
+    /* cursor: pointer; */
+    font-size: 20px;
+
+}
+
+
+
+
+
+#footer-part .link{
+  width: 20%;
+  /* background: yellow; */
+  height: 350px;
+  float: left;
+}
+
+#footer-part .link h4{
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  color: #E7DFD2;
+  padding:10px 10px;
+  padding-bottom: 50px;
+}
+
+#footer-part .link ul li{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 16px;
+  color: #E7DFD2;
+  transition: .4s;
+  line-height: 38px;
+  padding: 0 10px;
+}
+
+#footer-part .link ul li:hover{
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+#footer-part .photo{
+  width: 30%;
+  /* background: orange; */
+  height: 350px;
+  float: left;
+}
+
+#footer-part .photo h4{
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  color: #E7DFD2;
+  padding:10px 1px;
+  padding-bottom: 48px;
+}
+/* 
+#footer-part .photo .image img{
+  padding: 0 0px;
+} */
+
+
+/*===================================
+    footer part css end
+=====================================*/
